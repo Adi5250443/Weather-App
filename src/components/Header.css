@@ -3,53 +3,93 @@ body{
     padding: 0px;
     background: url(https://images.pexels.com/photos/695657/pexels-photo-695657.jpeg?cs=srgb&dl=pexels-johann-piber-695657.jpg&fm=jpg);
 }
-.header-bg{
-    background: url();
-    width: 80vh;
-    height: 80vh;
-    margin-left: 290px;
-    margin-top: 50px;
-    border: 5px solid black;
-    border-radius: 8px;
-      display:flex;
-     flex-direction: column;   
+.header{
+        border: 3px solid black;
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(auto);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        height: 420px;  
+        border-radius: 10px;
+        font-family: 'OpenSans-Bold';
+        font-size: larger;
+      
 }
 .title{
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    margin-top: 20px;
-    margin-left: 90px;
-}
-.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'OpenSans-Bold';
+    font-size: 35px;
     
-    border-color: rgb(20, 19, 19);
+}
+.search-field
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  
+}
+.search-field input
+{
+    /* padding: 4px; */
+    margin-top: 20px;
     border-radius: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
-
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    height: 35px;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .btn{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-    margin-left:50px;
-    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.btn button
+{
+    padding: 6px;
+    background-color: #828a8d;
+    font-family: "Patua One";
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
 }
 
 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;  
+}
+.logo img
+{
     width: 100px;
-    height: 80px;
-    margin: 5px;
-    margin-left: 120px;
-    
+    height: 100px;
 }
 .cityName{
-    font-size: 30px;
-    margin-left: 110px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 33px;
+    font-family: 'OpenSans-Bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
 }
 .temp{
-    font-size: 30px;
-    margin-left: 110px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    font-family: 'OpenSans-Bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+
 }
