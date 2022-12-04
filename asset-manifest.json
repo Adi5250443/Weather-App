@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//Adi5250443.github.io/Weather-App/static/css/main.05396d5c.css",
+    "main.js": "/https//Adi5250443.github.io/Weather-App/static/js/main.b6e568e5.js",
+    "index.html": "/https//Adi5250443.github.io/Weather-App/index.html",
+    "main.05396d5c.css.map": "/https//Adi5250443.github.io/Weather-App/static/css/main.05396d5c.css.map",
+    "main.b6e568e5.js.map": "/https//Adi5250443.github.io/Weather-App/static/js/main.b6e568e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05396d5c.css",
+    "static/js/main.b6e568e5.js"
+  ]
+}
